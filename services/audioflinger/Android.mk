@@ -70,6 +70,8 @@ LOCAL_STATIC_LIBRARIES := \
     libscheduling_policy \
     libcpustats \
     libmedia_helper
+    
+LOCAL_CFLAGS += -Os
 
 LOCAL_MODULE:= libaudioflinger
 LOCAL_32_BIT_ONLY := true
