@@ -59,6 +59,8 @@ LOCAL_SHARED_LIBRARIES := \
 LOCAL_STATIC_LIBRARIES := \
     libcpustats \
     libmedia_helper
+    
+LOCAL_CFLAGS += -Os
 
 LOCAL_MODULE:= libaudioflinger
 LOCAL_32_BIT_ONLY := true
