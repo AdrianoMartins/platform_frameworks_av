@@ -63,6 +63,8 @@ LOCAL_SHARED_LIBRARIES := \
 LOCAL_STATIC_LIBRARIES := \
     libcpustats \
     libmedia_helper
+    
+LOCAL_CFLAGS += -Os
 
 LOCAL_MULTILIB := $(AUDIOSERVER_MULTILIB)
 
